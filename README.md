@@ -2,6 +2,80 @@
 AI-Powered Chatbot for Supplier and Product Information using FastAPI and React.
 
 
+# AI-Powered Chatbot for Supplier and Product Information
+
+## Overview
+This project is a chatbot that allows users to query a product and supplier database using natural language. It uses FastAPI for the backend, React for the frontend, and a PostgreSQL database.
+
+## Features
+- Query product and supplier information
+- Summarize results using an open-source LLM
+- User-friendly React interface
+
+## Installation
+
+### Backend
+1. Navigate to the `backend` folder:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the FastAPI server:
+   ```bash
+   uvicorn app:app --reload
+   ```
+
+### Frontend
+1. Navigate to the `frontend` folder:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the React development server:
+   ```bash
+   npm start
+   ```
+
+### Database
+1. Create a PostgreSQL database.
+2. Run `schema.sql` to create tables.
+3. Run `seed_data.sql` to populate the database with sample data.
+
+## Usage
+- Open `http://localhost:3000` to access the chatbot interface.
+- Enter natural language queries to interact with the database.
+
+## License
+This project is licensed under the MIT License.
+```
+
+### `.gitignore`
+
+```text
+.env
+__pycache__/
+node_modules/
+dist/
+build/
+*.log
+```
+
+This structure is now fully aligned with the GitHub project requirements.
+
+
+
+
+
+
+
+
+
 
 
 
